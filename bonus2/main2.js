@@ -3,10 +3,10 @@
 
 
 // var età persona1
-var eta1 = parseInt(prompt("Quanti anni hai?"));
+var eta1 = parseInt(prompt("Quanti anni ha il primo utente?"));
 
 // var età persona2
-var eta2 = parseInt(prompt("Quanti anni hai?"));
+var eta2 = parseInt(prompt("Quanti anni ha il secondo utente?"));
 
 // var per l'età maggiore
 var etaMaggiore;
@@ -20,4 +20,4 @@ etaMaggiore = eta1;
 
 
 // output età maggiore
-document.getElementById('yo').innerHTML = "La persona più grande ha: " + etaMaggiore + " anni";
+document.getElementById('yo').innerHTML = "L'utente più grande ha: " + etaMaggiore + " anni";
