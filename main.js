@@ -24,10 +24,10 @@ var prezzoPerKm = 0.21;
 var prezzoNoSconto = prezzoPerKm * utenteKm;
 
 // var biglietto sconto 20%
-var prezzoUnder = prezzoNoSconto * 0.2;
+var prezzoUnder = prezzoNoSconto - ((prezzoNoSconto * 2)/10);
 
 // var biglietto sconto 40%
-var prezzoOver = prezzoNoSconto * 0.4;
+var prezzoOver = prezzoNoSconto - ((prezzoNoSconto * 4)/10);
 
 // var del prezzo finale del biglietto
 var prezzoFinale;
